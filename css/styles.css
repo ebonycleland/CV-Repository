@@ -2,7 +2,7 @@
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 /* Styles for the body */
 
 body {
@@ -22,9 +22,16 @@ body {
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #4CC5C0;
 }
 
+h4 {
+	font-family: "Oswald", sans-serif;
+}
+
+h5 {
+	color:#0B7A75;
+}
 /* Styles for lists in the document */
 
 .biography-details li::before, .skill-list li::before {
@@ -48,4 +55,7 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+a {
+	color:#F307CA; 
 }
